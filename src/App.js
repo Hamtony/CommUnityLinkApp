@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <Switch>
-          <Route path="/" element={<HomePage/>} />
+          <Route path="/" element={<ExplorePage/>} />
           <Route path="/explore" element={<ExplorePage/>} />
       </Switch>
     </Router>
