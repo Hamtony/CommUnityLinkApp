@@ -1,15 +1,15 @@
 import './App.css';
-import {BrowserRouter as Router, Route, Routes, Switch} from "react-router-dom";
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import { ExplorePage } from './pages/ExplorePage/ExplorePage';
 import { HomePage } from './pages/HomePage/HomePage';
 
 function App() {
   return (
     <Router>
-      <Switch>
+      <Routes>
           <Route path="/" element={<ExplorePage/>} />
           <Route path="/explore" element={<ExplorePage/>} />
-      </Switch>
+      </Routes>
     </Router>
   );
 }
