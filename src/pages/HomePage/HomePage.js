@@ -8,7 +8,7 @@ export const HomePage = () => {
             <Navbar/>
           <div className="section">
             <div className="container">
-              <p className="title">Conectando a Pequeños Negocios Locales y su Comunidaaaaaaaaaaaaaaad</p>
+              <p className="title">Conectando a Pequeños Negocios Locales y su Comunidad</p>
               <p className="description">
                 Un lugar donde los negocios locales pueden promocionarse y vender sus productos a la comunidad
               </p>
