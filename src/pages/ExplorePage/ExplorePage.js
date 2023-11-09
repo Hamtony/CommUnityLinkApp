@@ -4,7 +4,7 @@ import Navbar from "../../components/shared/Navbar";
 
 export const ExplorePage = () => {
   return (
-    <div className="page">
+    <div className="page2">
       <Navbar/>
       <div className="section">
         <div className="container">
