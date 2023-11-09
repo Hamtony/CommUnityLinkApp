@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-export const Page = () => {
+export const ExplorePage = () => {
   return (
     <div className="page">
       <Navbar/>
