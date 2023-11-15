@@ -11,7 +11,7 @@ export const ExplorePage = () => {
           <div className="text-wrapper">Explore Local Businesses</div>
           <p className="description">Discover the most popular products and services in your community.</p>
         </div>
-        <img className="vector" alt="Vector" src="vector-200.svg" />
+        <img className="vector" alt="Vector" src="img/vector-200.svg" />
       </div>
       <div className="div">
         <div className="container">
@@ -29,7 +29,7 @@ export const ExplorePage = () => {
               <div className="text-content">
                 <div className="title-4">Product 1</div>
                 <div className="subtitle">Product details</div>
-                <img className="icon-buttons" alt="Icon buttons" src="icon-buttons.svg" />
+                <img className="icon-buttons" alt="Icon buttons" src="img/icon-buttons.svg" />
               </div>
             </div>
             <div className="card">
@@ -41,7 +41,7 @@ export const ExplorePage = () => {
               <div className="text-content">
                 <div className="title-4">Product 2</div>
                 <div className="subtitle">Product details</div>
-                <img className="icon-buttons" alt="Icon buttons" src="icon-buttons-4.svg" />
+                <img className="icon-buttons" alt="Icon buttons" src="img/icon-buttons-4.svg" />
               </div>
             </div>
             <div className="card">
@@ -53,12 +53,12 @@ export const ExplorePage = () => {
               <div className="text-content">
                 <div className="title-4">Product 3</div>
                 <div className="subtitle">Product details</div>
-                <img className="icon-buttons" alt="Icon buttons" src="icon-buttons-5.svg" />
+                <img className="icon-buttons" alt="Icon buttons" src="img/icon-buttons-5.svg" />
               </div>
             </div>
           </div>
         </div>
-        <img className="img" alt="Vector" src="image.svg" />
+        <img className="img" alt="Vector" src="img/image.svg" />
       </div>
       <div className="div">
         <div className="container">
@@ -76,7 +76,7 @@ export const ExplorePage = () => {
               <div className="text-content">
                 <div className="title-4">Product 1</div>
                 <div className="subtitle">Product details</div>
-                <img className="icon-buttons" alt="Icon buttons" src="icon-buttons-6.svg" />
+                <img className="icon-buttons" alt="Icon buttons" src="img/icon-buttons-6.svg" />
               </div>
             </div>
             <div className="card">
@@ -88,7 +88,7 @@ export const ExplorePage = () => {
               <div className="text-content">
                 <div className="title-4">Product 2</div>
                 <div className="subtitle">Product details</div>
-                <img className="icon-buttons" alt="Icon buttons" src="icon-buttons-7.svg" />
+                <img className="icon-buttons" alt="Icon buttons" src="img/icon-buttons-7.svg" />
               </div>
             </div>
             <div className="card">
@@ -100,12 +100,12 @@ export const ExplorePage = () => {
               <div className="text-content">
                 <div className="title-4">Product 3</div>
                 <div className="subtitle">Product details</div>
-                <img className="icon-buttons" alt="Icon buttons" src="icon-buttons-8.svg" />
+                <img className="icon-buttons" alt="Icon buttons" src="img/icon-buttons-8.svg" />
               </div>
             </div>
           </div>
         </div>
-        <img className="img" alt="Vector" src="vector-200-3.svg" />
+        <img className="img" alt="Vector" src="img/vector-200-3.svg" />
       </div>
       <div className="div">
         <div className="title-wrapper">
@@ -120,10 +120,10 @@ export const ExplorePage = () => {
                   <div className="title-6">User 1</div>
                 </div>
               </div>
-              <img className="frame-2" alt="Frame" src="frame-427318817.svg" />
+              <img className="frame-2" alt="Frame" src="img/frame-427318817.svg" />
             </div>
             <div className="title-7">Great experience!</div>
-            <img className="icon-buttons" alt="Icon buttons" src="icon-buttons-2.svg" />
+            <img className="icon-buttons" alt="Icon buttons" src="img/icon-buttons-2.svg" />
           </div>
           <div className="card-2">
             <div className="user">
@@ -133,13 +133,13 @@ export const ExplorePage = () => {
                   <div className="title-6">User 2</div>
                 </div>
               </div>
-              <img className="frame-2" alt="Frame" src="frame-427318817-2.svg" />
+              <img className="frame-2" alt="Frame" src="img/frame-427318817-2.svg" />
             </div>
             <div className="title-7">Amazing service.</div>
-            <img className="icon-buttons" alt="Icon buttons" src="icon-buttons-3.svg" />
+            <img className="icon-buttons" alt="Icon buttons" src="img/icon-buttons-3.svg" />
           </div>
         </div>
-        <img className="vector-2" alt="Vector" src="vector-200-2.svg" />
+        <img className="vector-2" alt="Vector" src="img/vector-200-2.svg" />
       </div>
       <div className="container-wrapper">
         <div className="div-wrapper">
