@@ -6,7 +6,7 @@ import { HomePage } from './pages/HomePage/HomePage';
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Routes path="/" element={HomePage} >
+      <Routes path="/" element={<Root/>} >
           <Route path="/" element={<HomePage/>} />
           <Route path="/explore" element={<ExplorePage/>} />
           <Route path="/contact" element={<ContactUs/>} />
