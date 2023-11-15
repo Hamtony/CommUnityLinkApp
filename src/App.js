@@ -1,38 +1,29 @@
 import './App.css';
-import {RouterProvider, BrowserRouter as Router, Route, Routes, createBrowserRouter, createRoutesFromElements, Link, Outlet} from "react-router-dom";
 import { ExplorePage } from './pages/ExplorePage/ExplorePage';
 import { HomePage } from './pages/HomePage/HomePage';
+import { ContactUs } from './pages/ContactUs/ContactUs';
 
 function App() {
-  const router = createBrowserRouter(
-    createRoutesFromElements(
-      <Routes path="/" element={<Root/>} >
-          <Route path="/" element={<HomePage/>} />
-          <Route path="/explore" element={<ExplorePage/>} />
-          <Route path="/contact" element={<ContactUs/>} />
-      </Routes>
-    )
-  );
-  return(
-    <div className='App'>
-      <h1>Hello</h1>
-    </div>
-  )
-}
+  let component
+  switch (window.location.pathname) {
+    case "/":
+      component = <HomePage/>
+      break;
+    case "/explore":
+      component = <ExplorePage/>
+      break;
+    case "/contact":
+      component = <ContactUs/>
+      break;
+    default:
+      break;
+  }
 
-const Root = () =>{
   return(
     <>
-      <div>
-        <Link to="/"> HomePage </Link>
-        <Link to="/explore"> ExplorePage </Link>
-        <Link to="/contact"> ContactUs </Link>
-      </div>
-      <div>
-        <Outlet/>
-      </div>
-    </>
-  )
+      {component}
+    </>    
+  );
 }
 
 export default App;
