@@ -4,6 +4,7 @@ import { HomePage } from './pages/HomePage/HomePage';
 import { ContactUs } from './pages/ContactUs/ContactUs';
 
 function App() {
+  console.log(window.location)
   let component
   switch (window.location.pathname) {
     case "/":
